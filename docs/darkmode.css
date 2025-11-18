@@ -1,0 +1,283 @@
+/* ==============================================
+   WIDGET DARK MODE THEME
+   ============================================== */
+
+/* ----------------------------------------------
+   1. Container & Background
+   ---------------------------------------------- */
+
+/* Main widget container */
+unicourt-search {
+  background: #1a1a1a !important;
+  color: #ffffff !important;
+}
+
+/* Widget wrapper */
+#uc-search-widget {
+  background: #1a1a1a !important;
+  color: #ffffff !important;
+}
+
+/* ----------------------------------------------
+   2. Search Header
+   ---------------------------------------------- */
+
+/* Header background */
+#uc-search-widget app-search-header {
+  background: #242424 !important;
+  border-bottom: 1px solid #404040 !important;
+}
+
+/* Search input field */
+#uc-search-header app-search-bar-wrapper input,
+#uc-search-widget input[type="text"],
+#uc-search-widget input[type="search"] {
+  background: #2d2d2d !important;
+  border-color: #404040 !important;
+  color: #ffffff !important;
+}
+
+/* Input focus state */
+#uc-search-header app-search-bar-wrapper input:focus,
+#uc-search-widget input:focus {
+  background: #333333 !important;
+  border-color: #4a9eff !important;
+  color: #ffffff !important;
+}
+
+/* Search button */
+.uc-button-search,
+#uc-search-widget app-search-header .uc-button-search {
+  background: #4a9eff !important;
+  color: #ffffff !important;
+  border-color: #4a9eff !important;
+}
+
+.uc-button-search:hover {
+  background: #357ae8 !important;
+}
+
+/* Natural Language dropdown */
+#uc-search-widget select,
+#uc-search-widget .uc-dropdown {
+  background: #2d2d2d !important;
+  border-color: #404040 !important;
+  color: #ffffff !important;
+}
+
+/* ----------------------------------------------
+   3. Filter Chips & Tags
+   ---------------------------------------------- */
+
+/* Filter chips below search */
+#uc-search-widget button.uc-filter-chip,
+#uc-search-widget .uc-chip {
+  background: #2d2d2d !important;
+  border-color: #404040 !important;
+  color: #ffffff !important;
+}
+
+#uc-search-widget button.uc-filter-chip:hover {
+  background: #404040 !important;
+}
+
+/* Document/Text labels */
+#uc-search-widget .uc-filter-label {
+  background: #2d2d2d !important;
+  color: #ffffff !important;
+}
+
+/* ----------------------------------------------
+   4. Filter Sidebar
+   ---------------------------------------------- */
+
+/* Left filter section */
+.uc-filter-section,
+#uc-widget-facets,
+#uc-search-widget .filter-panel {
+  background: #1f1f1f !important;
+  border-color: #404040 !important;
+  color: #ffffff !important;
+}
+
+/* Filter headings */
+.uc-filter-section h3,
+.uc-filter-section h4,
+#uc-widget-facets h3,
+#uc-widget-facets h4 {
+  color: #ffffff !important;
+}
+
+/* Filter inputs */
+#uc-widget-facets app-case-search-facets input,
+.uc-filter-section input {
+  background: #2d2d2d !important;
+  border-color: #404040 !important;
+  color: #ffffff !important;
+}
+
+/* Checkboxes and radio buttons */
+#uc-case-list-wrapper [type=checkbox],
+#uc-case-list-wrapper [type=radio] {
+  border-color: #404040 !important;
+}
+
+#uc-case-list-wrapper [type=radio]:checked {
+  background-color: #4a9eff !important;
+  border-color: #4a9eff !important;
+}
+
+/* ----------------------------------------------
+   5. Case Results
+   ---------------------------------------------- */
+
+/* Results container */
+#uc-case-list-wrapper {
+  background: #1a1a1a !important;
+  color: #ffffff !important;
+}
+
+/* Individual case cards */
+.uc-case-card,
+#uc-search-widget .case-result,
+#uc-search-widget .uc-result-item {
+  background: #2d2d2d !important;
+  border: 1px solid #404040 !important;
+  color: #ffffff !important;
+}
+
+.uc-case-card:hover {
+  background: #333333 !important;
+  border-color: #4a9eff !important;
+}
+
+/* Case titles */
+.uc-case-title,
+#uc-search-widget .case-title,
+#uc-search-widget h3,
+#uc-search-widget h4 {
+  color: #ffffff !important;
+}
+
+/* Case metadata */
+.uc-case-metadata,
+#uc-search-widget .case-number,
+#uc-search-widget .court-name,
+#uc-search-widget .case-date {
+  color: #a0a0a0 !important;
+}
+
+/* Links */
+#uc-search-widget a {
+  color: #4a9eff !important;
+}
+
+#uc-search-widget a:hover {
+  color: #357ae8 !important;
+}
+
+/* ----------------------------------------------
+   6. UI Elements
+   ---------------------------------------------- */
+
+/* All buttons */
+#uc-search-widget button {
+  background: #2d2d2d !important;
+  border-color: #404040 !important;
+  color: #ffffff !important;
+}
+
+#uc-search-widget button:hover {
+  background: #404040 !important;
+}
+
+/* Clear button */
+#uc-search-widget .uc-button-clear,
+#uc-search-widget button.clear {
+  color: #4a9eff !important;
+}
+
+/* Dividers */
+#uc-search-widget hr,
+#uc-search-widget .divider {
+  border-color: #404040 !important;
+}
+
+/* ----------------------------------------------
+   7. Typography & Text
+   ---------------------------------------------- */
+
+/* All text elements */
+#uc-search-widget,
+#uc-search-widget * {
+  color: #ffffff !important;
+}
+
+/* Muted/secondary text */
+#uc-search-widget .text-muted,
+#uc-search-widget .secondary-text,
+#uc-search-widget small {
+  color: #a0a0a0 !important;
+}
+
+/* Labels */
+#uc-search-widget label {
+  color: #ffffff !important;
+}
+
+/* ----------------------------------------------
+   8. Special States
+   ---------------------------------------------- */
+
+/* Loading/waiting states */
+#uc-search-widget .loading,
+#uc-search-widget .uc-spinner {
+  border-color: #404040 !important;
+}
+
+/* Dropdown menus */
+#uc-search-widget .dropdown-menu,
+#uc-search-widget .menu {
+  background: #2d2d2d !important;
+  border-color: #404040 !important;
+}
+
+#uc-search-widget .dropdown-item:hover {
+  background: #404040 !important;
+}
+
+/* Pagination */
+#uc-search-widget .pagination button,
+#uc-search-widget .page-link {
+  background: #2d2d2d !important;
+  border-color: #404040 !important;
+  color: #ffffff !important;
+}
+
+#uc-search-widget .pagination button:hover {
+  background: #404040 !important;
+}
+
+/* ----------------------------------------------
+   9. Scrollbars (Webkit)
+   ---------------------------------------------- */
+
+#uc-search-widget ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+#uc-search-widget ::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+#uc-search-widget ::-webkit-scrollbar-thumb {
+  background: #404040;
+  border-radius: 4px;
+}
+
+#uc-search-widget ::-webkit-scrollbar-thumb:hover {
+  background: #505050;
+}
+
+/* widget dark mode end */
