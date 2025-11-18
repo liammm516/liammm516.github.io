@@ -34,12 +34,12 @@
 
 /* Sets the background color for the entire top header section. */
 #uc-search-widget app-search-header {
-  background-color: var(--widget-header-bg) !important;
+  background-color: var(--widget-header-bg);
 }
 
 /* Styles the main 'Search' button within the header. */
 #uc-search-widget app-search-header .uc-button-search {
-  background-color: var(--widget-primary-color) !important;
+  background-color: var(--widget-primary-color);
 }
 
 /* * Section: Inputs &amp; Interactions (Focus/Hover)
@@ -52,20 +52,20 @@
 #uc-widget-facets app-case-search-facets input:hover,
 #uc-search-header app-search-bar-wrapper input:hover,
 #uc-search-header app-search-bar-wrapper input:focus {
-  border-color: var(--widget-primary-color) !important;
-  outline: none !important;
+  border-color: var(--widget-primary-color);
+  outline: none;
 }
 
 /* Provides the colored "focus ring" (using box-shadow) when
  * you are typing in the main search bar. */
 #uc-search-header app-search-bar-wrapper input:focus {
-  box-shadow: 0 0 0 1.2px var(--widget-primary-color) !important;
+  box-shadow: 0 0 0 1.2px var(--widget-primary-color);
 }
 
 /* Sets the background color when a user hovers over
  * an active filter 'chip' (tag). */
 #uc-search-widget button.uc-filter-chip:hover {
-  background-color: var(--widget-chip-hover-bg) !important;
+  background-color: var(--widget-chip-hover-bg);
 }
 
 /* * Section: Search Results &amp; Content Area
@@ -75,10 +75,10 @@
 /* Styles the 'checked' state of radio buttons 
  * (e.g., in the facet filters or results list). */
 #uc-case-list-wrapper [type=radio]:checked {
-  background-color: var(--widget-primary-color) !important;
-  outline: none !important;
-  box-shadow: none !important;
-  border-color: var(--widget-primary-color) !important;
+  background-color: var(--widget-primary-color);
+  outline: none;
+  box-shadow: none;
+  border-color: var(--widget-primary-color);
 }
 
 /* widget custom style end */
