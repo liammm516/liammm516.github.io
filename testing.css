@@ -1,0 +1,84 @@
+/* ==============================================
+   WIDGET CUSTOM STYLE TEMPLATE
+   ============================================== */
+
+/* ----------------------------------------------
+   1. :: Theme Color Variables ::
+   
+   Edit these color codes to quickly theme
+   the entire widget to match your brand.
+   ---------------------------------------------- */
+:root {
+  /* --widget-primary-color: Sets the main accent color used for buttons, links, and highlights. */
+  --widget-primary-color: #f963ea;
+
+  /* --widget-header-bg: Sets the background color for the main search header bar. */
+  --widget-header-bg: ##9C4332;
+
+  /* --widget-chip-hover-bg: Sets the hover color for the filter "chips" (tags) below the search bar. */
+  --widget-chip-hover-bg: #8FABD4;
+}
+
+
+/* ----------------------------------------------
+   2. :: Widget Element Styles ::
+   
+   These rules apply the variables from above.
+   You generally do not need to edit these
+   unless you want more advanced customization.
+   ---------------------------------------------- */
+
+/* * Section: Search Header
+ * --------------------------
+ */
+
+/* Sets the background color for the entire top header section. */
+#uc-search-widget app-search-header {
+  background-color: var(--widget-header-bg);
+}
+
+/* Styles the main 'Search' button within the header. */
+#uc-search-widget app-search-header .uc-button-search {
+  background-color: var(--widget-primary-color);
+}
+
+/* * Section: Inputs &amp; Interactions (Focus/Hover)
+ * -----------------------------------------------
+ */
+
+/* Sets the border highlight color for active (focus) or hovered input fields.
+ * This applies to the main search bar and facet filter inputs. */
+#uc-widget-facets app-case-search-facets input:focus,
+#uc-widget-facets app-case-search-facets input:hover,
+#uc-search-header app-search-bar-wrapper input:hover,
+#uc-search-header app-search-bar-wrapper input:focus {
+  border-color: var(--widget-primary-color);
+  outline: none;
+}
+
+/* Provides the colored "focus ring" (using box-shadow) when
+ * you are typing in the main search bar. */
+#uc-search-header app-search-bar-wrapper input:focus {
+  box-shadow: 0 0 0 1.2px var(--widget-primary-color);
+}
+
+/* Sets the background color when a user hovers over
+ * an active filter 'chip' (tag). */
+#uc-search-widget button.uc-filter-chip:hover {
+  background-color: var(--widget-chip-hover-bg);
+}
+
+/* * Section: Search Results &amp; Content Area
+ * -----------------------------------------------
+ */
+
+/* Styles the 'checked' state of radio buttons 
+ * (e.g., in the facet filters or results list). */
+#uc-case-list-wrapper [type=radio]:checked {
+  background-color: var(--widget-primary-color);
+  outline: none;
+  box-shadow: none;
+  border-color: var(--widget-primary-color);
+}
+
+/* widget custom style end */
